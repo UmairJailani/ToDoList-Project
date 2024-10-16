@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(226, 231, 228);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 500px;
+}
+
+.title {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.SnA {
+  /* border: 2px solid red; */
+  margin: 10px 50px;
+  padding: 10px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.SnA input {
+  width: 90%;
+  height: 50px;
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.SnA img {
+  width: 10%;
+  height: 10%;
+  margin: 10px;
+  color: orange;
+  cursor: pointer;
+}
+
+.taskitems {
+  width: 450px;
+}
+
+ul {
+  padding: 0px;
+}
+
+.taskitems li {
+  font-weight: 400;
+  font-size: 25px;
+  border: 0.15px solid rgb(92, 90, 90);
+  border-radius: 30px;
+  background: whitesmoke;
+  padding: 0px 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.taskitems li p {
+  flex-grow: 1;
+}
+
+.taskitems li button {
+  border: none;
+  width: 70px;
+  height: 25px;
+  background: none;
+  cursor: pointer;
+}
+
+.taskitems li:hover {
+  background: rgb(199, 199, 199);
+  transition: 0.8s, smooth;
+}
+
+.delBtn {
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.editBtn {
+  color: green;
+  font-size: 15px;
+  font-weight: 600;
+}
