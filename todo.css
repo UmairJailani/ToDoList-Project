@@ -8,11 +8,13 @@ body {
 
 .container {
   display: flex;
+  margin-top: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  border: 5px solid black;
   width: 500px;
+  border-radius: 20px;
 }
 
 .title {
@@ -69,6 +71,7 @@ ul {
   list-style-type: none;
   cursor: pointer;
   justify-content: space-between;
+  margin: 20px 0px;
 }
 
 .taskitems li p {
